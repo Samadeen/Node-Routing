@@ -32,6 +32,7 @@ const server = http.createServer((req, res) => {
       res.write(data);
       return res.end();
     });
+    //Error
   } else {
     res.writeHead(404, {
       'Content-type': 'text/html',
